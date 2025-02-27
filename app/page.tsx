@@ -46,7 +46,7 @@ export default function ChatBot() {
     console.log("📤 Sending message:", input); // Debugging log
 
     try {
-      await handleSubmit(e);
+      handleSubmit(e);
       console.log("✅ Message sent successfully");
     } catch (error) {
       console.error("❌ Error sending message:", error);
